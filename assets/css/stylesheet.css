@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@370&family=Pacifico&display=swap');
-html, body{margin:0px; padding:0px;}
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
 
 body{
     font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
     font-family: 'Pacifico', cursive;
 }
 
@@ -76,11 +80,11 @@ header{
 
     bottom: 0px;
     right: 250px;
+}
 
+#hero-title h2{
     padding: 20px;
-    
     color:white;
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
-    
 }
