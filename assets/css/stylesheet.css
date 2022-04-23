@@ -92,7 +92,7 @@ header{
 }
 
 #hero-title h2{
-    padding: 20px;
+    padding-top: 20px;
     color:white;
     font-size: 70px;
     text-align: center;
@@ -103,7 +103,7 @@ header{
 /* sections */
 
 .section-title{
-    padding-top: 50px;
+    margin-top: 50px;
     padding-bottom: 50px;
     text-align: center;
 }
@@ -118,7 +118,8 @@ header{
     width:50%;
     height:600px;
     position: relative;
-    float:left
+    float: left;
+    overflow: hidden;
 }
 
 .about-us-right{
@@ -127,6 +128,7 @@ header{
     height:600px;
     position: relative;
     float: right;
+    overflow: hidden;
 }
 
 .about-us-text{
@@ -141,4 +143,16 @@ header{
     width:100%;
     height: 600px;
     background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+/* map */
+
+#map {
+    width: 100%;
+    height: auto;
+}
+iframe {
+    width: 100%;
 }
