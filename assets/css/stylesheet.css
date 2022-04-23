@@ -4,9 +4,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-h1 h2 h3 h4 h5 h6{
-    font-family: Mont;
+h1, {
+    font-family: 'Pacifico', cursive;
 }
+
+
 
 /* Header */
 
@@ -23,12 +25,25 @@ header{
     float: left
 }
 
+
+/* Header Navigation */
+
 #menu{
-    line-height: 150px;
+    line-height: 170px;
+    font-size: 120%;
 }
 
-#menu li{
+#menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
+}
+
+#menu a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    border-bottom: white 10px solid;
 }
