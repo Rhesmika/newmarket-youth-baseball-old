@@ -166,20 +166,57 @@ iframe {
     background-size: cover;
     background-position: center;
     position: relative;
-    padding: 20px;
+    padding: 50px;
 
 }
 
 .join-team-form{
     width: 800px;
     height: auto;
-    background-color: rgba(46, 51, 140, 0.8);
-    text-align: left;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
     margin:auto;
     padding:30px;
+    color:#ffffff;
 }
 
 .join-team-form h2{
     color:#ffffff;
-    margin: 30px;
+}
+
+.join-team-form input{
+    margin: 20px;
+    line-height: 30px;
+    width: 400px;
+}
+
+.join-team-form-radio{
+    text-align: left;
+    padding: 0px;
+}
+.join-team-form-radio p{
+    text-align: left;
+    padding-left: 200px;
+}
+
+/* footer */
+
+footer{
+    height: 150px;
+}
+
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks > li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }

@@ -115,34 +115,59 @@
         <div  class="join-team-form">
             <div><h2 class="section-title">Join the Team</h2></div>
                 <form method="post" action="">
-                    <input type="text" name="first-name" placeholder="First Name">
-                    <input type="text" name="last-name" placeholder="Last Name">
-                    <br>
-                    <input type="email" name="email" placeholder="E-mail">
-                    <input type="number" name="contact-number" placeholder="Contact Number">
-                    <br>
-                    <p>Self assessed skill level</p>
-                    <input name="skill-level" type="radio" id="beginner" value="beginner">
-                    <label for="beginner">Beginner</label>
 
-                    <input name="skill-level" type="radio" id="intermediate" value="intermediate">
-                    <label for="intermediate">Intermediate</label>
-
-                    <input name="skill-level" type="radio" id="professional" value="professional">
-                    <label for="professional">Professional</label>
+                    <input type="text" name="first-name" placeholder="First Name" required>
+                    <input type="text" name="last-name" placeholder="Last Name" required>
                     <br>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="text" name="contact-number" placeholder="Contact Number" required>
 
-                    <input type="text" name="Street address" placeholder="Street Address">
-                    <input type="text" name="postcode" placeholder="Postcode">
+                    <div class="join-team-form-radio">
+                        <p>Self assessed skill level</p>
+                        <input name="skill-level" type="radio" id="beginner" value="beginner"required>
+                        <label for="beginner">Beginner</label>
+
+                        <input name="skill-level" type="radio" id="intermediate" value="intermediate">
+                        <label for="intermediate">Intermediate</label>
+
+                        <input name="skill-level" type="radio" id="professional" value="professional">
+                        <label for="professional">Professional</label>
+                    </div>
+
+                    <input type="text" name="Street address" placeholder="Street Address" required>
+                    <input type="text" name="postcode" placeholder="Postcode" required>
                     <br>
                     <input type="text area" name="notes" placeholder="Anythign else you'd like to mention">
+                    <input type="submit" value="Submit">
               </form>
         </div>
     </section>
 
+    <footer>
+        <ul class="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target=_blank rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target=_blank rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target=_blank rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target=_blank rel="noopener"
+                aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+         </ul>
+    </footer>
+    
 
-    <section>Join us form</section>
-    <footer>Social media links</footer>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/36d16e249a.js" crossorigin="anonymous"></script>
+
     
 </body>
 </html>
